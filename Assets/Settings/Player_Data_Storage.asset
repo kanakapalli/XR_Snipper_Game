@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 134da4bef76d8804da3ba71959b8d9dd, type: 3}
+  m_Name: Player_Data_Storage
+  m_EditorClassIdentifier: 
+  m_Player_Name: Demo_User
+  m_Sniper_AWM_Speed: 100
+  m_Sniper_AWM_Ammo: 0
+  m_Sniper_AWM_Enabled: 0
+  m_Sniper_Shooting: 0
+  m_ShootAudioClip: {fileID: 8300000, guid: 1ef41bf3314a7e84cb27ab0829b1ba27, type: 3}
+  m_ShellAudioClip: {fileID: 8300000, guid: 38a96585af13c074aa000ebdfb642bef, type: 3}
+  m_ReloadAudioClip: {fileID: 8300000, guid: 07635ce7971b0304d9bca62c5a82daa7, type: 3}
+  m_MagAudioClip: {fileID: 8300000, guid: 16ce65c6086e644449396936b396b6d5, type: 3}
+  m_Realoading: 0
+  m_MagazineLoaded: 0
+  m_Bullet_Effect_Layer:
+    serializedVersion: 2
+    m_Bits: 384
+  m_Scope_Effect_Layer:
+    serializedVersion: 2
+    m_Bits: 4096
+  m_Score: 0
+  m_Visited: 0
+  m_SceneStateManager: {fileID: 11400000, guid: 3d5f20e99cf97c04c857599b25a7d3de, type: 2}
+  m_Level: 0
+  m_NewPlayerStatus: 0
