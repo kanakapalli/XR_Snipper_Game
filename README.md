@@ -26,7 +26,7 @@ To set up the project locally, follow these steps:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/xr-sniper-game.git
+   git clone https://github.com/kanakapalli/XR_Snipper_Game.git
    cd xr-sniper-game
    ```
 
