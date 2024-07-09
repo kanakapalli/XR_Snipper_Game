@@ -56,14 +56,15 @@ public class spwanAtKeyWall : MonoBehaviour
         MRUK mruk = MRUK.Instance;
         Vector2 vector2 = Vector2.zero;
         MRUKAnchor keywall = mruk.GetCurrentRoom().GetKeyWall(out vector2);
-        MRUKAnchor floor = mruk.GetCurrentRoom().GetFloorAnchor();
+        List<MRUKAnchor> wall = mruk.GetCurrentRoom().WallAnchors;
+        MRUKAnchor floor = mruk.GetCurrentRoom().FloorAnchor;
 
         GameObject contactorInstance = Instantiate(_prefab, keywall.gameObject.transform);
 
         contactorInstance.transform.position = new Vector3(contactorInstance.transform.position.x, floor.gameObject.transform.position.y, contactorInstance.transform.position.z);
 
 
-        // inistaicate contactor  at keywall.transform
+        // instantiate contractor at keywall.transform
 
     }
 }
